@@ -2,7 +2,7 @@
 - hosts: appserver
   become: yes
   tasks:
-  - name: install git apt-get install git
+  - name: install git
     apt:
       name: git
       state: present
